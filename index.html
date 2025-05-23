@@ -37,39 +37,151 @@
 </head>
 
 <body>
-  <!-- navbar -->
-  <div class="container mx-auto navbar bg-base-100 mt-2">
-    <div class="navbar-start">
-      <div class="dropdown">
-        <label tabindex="0" class="btn btn-ghost lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-          </svg>
-        </label>
-        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+  <header>
+    <!-- navbar -->
+    <div class="container mx-auto navbar bg-base-100 mt-2">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Cases</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost font-EB-Garamond text-3xl font-extrabold"><span><i
+              class="fa-solid fa-hammer text-[#B68C5A]"></i></span> Justice</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
           <li><a>Home</a></li>
-          <li><a>Services</a></li>
-          <li><a>Cases</a></li>
-          <li><a>Blog</a></li>
-          <li><a>Contact Us</a></li>
+          <li><a>Services ></a></li>
+          <li><a>Cases ></a></li>
+          <li><a>Blog ></a></li>
+          <li><a>Contact Us ></a></li>
         </ul>
       </div>
-      <a class="btn btn-ghost normal-case lg:text-2xl text-lg font-EB-Garamond font-bold text-[EB-Garamond] mr-10"><span><i
-            class="fa-solid fa-hammer text-[#B68C5A]"></i></span>Justice</a>
+      <div class="navbar-end">
+        <a class="btn bg-gradient-start text-white lg:w-[220px] w-[120px] lg:h-[52px] h-[10px] lg:text-lg">Free
+          Consultation</a>
+      </div>
     </div>
-    <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1">
-        <li><a>Home</a></li>
-        <li><a>Services ></a></li>
-        <li><a>Cases ></a></li>
-        <li><a>Blog ></a></li>
-        <li><a>Contact Us ></a></li>
-      </ul>
+    <!-- banner section -->
+    <div class="container mx-auto my-12">
+      <img class="relative" src="./images/banner.png" alt="">
+      <h2 class="absolute bottom-80 left-80 text-6xl font-extrabold font-EB-Garamond text-white">We Provide Effective
+      </h2>
+      <h2 class="absolute bottom-60 left-96 text-6xl font-extrabold font-EB-Garamond text-white">Legal Solutions</h2>
+      <p class="absolute text-white bottom-48 left-80 w-[60%]">Dispute resolution is a critical aspect of the legal
+        system that provides various</p>
+      <p class="absolute text-white bottom-40 left-96">methods for resolving conflicts without resorting to litigation.
+      </p>
+      <form
+        class="absolute bottom-24 left-80 w-[450px] h-[40px] border-1 border-white rounded-lg bg-white pl-4 pt-2 text-[#A0A0A0] text-sm font-bold"
+        action="">Search your services</form>
+      <button
+        class="absolute bg-gradient-start bottom-24 right-[370px] w-[100px] h-[40px] rounded-lg text-white text-lg font-bold">Search</button>
     </div>
-    <div class="navbar-end">
-      <a class="btn bg-gradient-start text-white lg:w-[220px] w-[120px] lg:h-[52px] h-[10px] lg:text-lg">Free Consultation</a>
-    </div>
-  </div>
+  </header>
+  <main>
+    <!-- legal practise area section -->
+    <section class="container mx-auto my-20">
+      <h2 class="text-center lg:text-4xl text-2xl font-extrabold font-EB-Garamond">The Legal Practice Area</h2>
+      <p class="lg:w-[730px] mx-auto mt-6 text-[#707070]">A legal system is an organised set of laws and regulations,
+        including the processes and institutions <span class="lg:pl-4">necessary to enforce them, which governs the
+          conduct of a society and
+          administers justice.</span></p>
+      <!-- legal practise container -->
+      <div class="mt-32">
+        <div class="grid lg:grid-cols-3 grid-cols-1">
+          <div class="card w-96 bg-base-100">
+            <figure class="px-10 pt-10">
+              <img src="./images/business.png" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl font-bold font-EB-Garamond">Business Law</h2>
+              <p class="w-64 text-[#707070] pt-4">Business law governs commercial transactions, contracts, corporate
+                structures, intellectual property, employment regulations. It shapes fair and legal business practices!
+              </p>
+              <img class="pt-4" src="./images/Frame.png" alt="">
+            </div>
+          </div>         
+          <div class="card w-96 bg-base-100">
+            <figure class="px-10 pt-10">
+              <img src="./images/criminal.png" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl font-bold font-EB-Garamond">Criminal Law</h2>
+              <p class="w-64 text-[#707070] pt-4">Criminal law defines offenses, penalties, trials,
+                evidence, defenses, sentencing & rehabilitation. It ensures justice and societal order while
+                safeguarding individual rights!</p>
+              <img class="pt-4" src="./images/Frame.png" alt="">
+            </div>
+          </div>
+          <div class="card w-96 bg-base-100">
+            <figure class="px-10 pt-10">
+              <img src="./images/child.png" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl font-bold font-EB-Garamond">Child Support</h2>
+              <p class="w-64 text-[#707070] pt-4">Child support ensures financial stability,
+                legal obligations, education, healthcare, housing, welfare. It safeguards children's
+                well-being and development!</p>
+              <img class="pt-4" src="./images/Frame.png" alt="">
+            </div>
+          </div>
+        </div>
+        <hr class="text-[#E7E7E7] border border-solid">
+        <div class="grid lg:grid-cols-3 grid-cols-1">
+          <div class="card w-96 bg-base-100">
+            <figure class="px-10 pt-10">
+              <img src="./images/education.png" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl font-bold font-EB-Garamond">Education Law</h2>
+              <p class="w-64 text-[#707070] pt-4">Education law governs schooling policies, student rights, curriculum
+                standards, teacher qualifications, discipline, privacy. It ensures fairness and quality in learning!</p>
+              <img class="pt-4" src="./images/Frame.png" alt="">
+            </div>
+          </div>
+          <div class="card w-96 bg-base-100">
+            <figure class="px-10 pt-10">
+              <img src="./images/divorce.png" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl font-bold font-EB-Garamond">Divorce Law</h2>
+              <p class="w-64 text-[#707070] pt-4">Divorce law regulates separation, property division,
+                child support, mediation, court proceedings, prenuptial agreements.It ensures
+                fairness in marital dissolution!</p>
+              <img class="pt-4" src="./images/Frame.png" alt="">
+            </div>
+          </div>
+          <div class="card w-96 bg-base-100">
+            <figure class="px-10 pt-10">
+              <img src="./images/tax.png" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl font-bold font-EB-Garamond">Tax Law</h2>
+              <p class="w-64 text-[#707070] pt-4">Tax law regulates taxation, deductions, credits,
+                corporate tax, payroll tax, international taxation, legal
+                disputes. It ensures fair and legal financial contributions!</p>
+              <img class="pt-4" src="./images/Frame.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
 </body>
 
 </html>
